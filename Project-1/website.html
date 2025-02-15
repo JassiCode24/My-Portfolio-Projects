@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Game survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Game survey</h1>
+    <p id="description">A servey about game experiences</p>
+    <div class="form">
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name: <input type="text" name="name" id="name" placeholder="Enter your name" required /></label>
+        <label id="email-label">Email: <input type="email" id="email" placeholder="Enter your Email" name="email" required /></label>
+        <label id="number-label">Age (optional): <input type="number" id="number" min="13" max="120" placeholder="Age" name="age" /></label>
+        <label>What is your most used platform?<select id="dropdown">
+          <option value="">select platform</option>
+          <option value="1">Console</option>
+          <option value="2">Mobile</option>
+          <option value="3">PC</option>
+        </select>
+        </label>
+      </fieldset>
+      <fieldset>
+    <legend>Do you prefer single-player or multiplayer?</legend>
+        <label for="single-player"><input id="single-player" name="sigle-multi-player" type="radio" class="inline" checked value="single-player" /> Single-player</label>
+        <label for="multiplayer"><input id="multiplayer" name="sigle-multi-player" type="radio" class="inline" value="multiplayer" /> Multiplayer</label>
+        <label for="both"><input id="both" name="sigle-multi-player" type="radio" class="inline" value="both" /> Both</label>
+      </fieldset>
+      <fieldset>
+        <legend>What game genres do you play? <span>(check all that apply)</span>
+        </legend>
+        <label for="action"><input id="action" type="checkbox" name="genres" checked class="inline" value="action" /> Action</label>
+        <label for="adventure"><input id="adventure" type="checkbox" name="genres" class="inline" value="adventure"/>Adventure</label>
+        <label for="puzzle"><input id="puzzle" type="checkbox" name="genres" class="inline" value="puzzle" />Puzzle</label>
+        <label for="role-playing"><input id="role-playing" type="checkbox" name="genres" class="inline" value="role-playing" />Role-playing</label>
+        <label for="simulation"><input id="simulation" type="checkbox" name="genres" class="inline" value="simulation" />Simulation</label>
+        <label for="strategy"><input id="strategy" type="checkbox" name="genres" class="inline" value="strategy" />Strategy</label>
+        <label for="sport"><input id="sport" type="checkbox" name="genres" class="inline" value="sport" />Sport</label>
+        </fieldset>
+        <fieldset>
+        <label for="what-you-like">What do you like in a game? <textarea id="what-you-like" name="what-you-like" rows="4" cols="30" placeholder="I like the storyline/grafics/etc."></textarea></label>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit" />
+    </form>
+    </div>
+  <body>
+</html>

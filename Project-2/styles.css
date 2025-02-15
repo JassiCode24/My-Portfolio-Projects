@@ -1,0 +1,49 @@
+main {
+    width:100%;
+    background-color:#FAF7F0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:#232322;
+    font-family:Arial;
+    font-size:16px;
+    }
+    
+    img{
+      max-width:100%;
+      display:block;
+      height:auto;
+      margin: auto;
+      max-height:500px;
+      padding-bottom:10px;
+    }
+    
+    
+    #img-div {
+      padding:15px;
+      height: auto;
+      background-color:#D8D2C2;
+      margin:10px;
+    }
+    
+    #tribute-info{
+      text-align:left;
+      margin: auto;
+      width: 70%;
+    }
+    
+    li {
+      padding-top:25px;
+    }
+    li::marker {
+      color: #B17457;
+    }
+    
+    #quote {
+      color:grey;
+      padding:35px;
+    }
+    
+    #entry{
+    font-size:19px;
+    }
